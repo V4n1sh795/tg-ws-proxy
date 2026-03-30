@@ -1,0 +1,8 @@
+services:  
+  python-proxy:
+      build:
+        context: ./proxy
+        dockerfile: Dockerfile
+      restart: always
+      ports:
+        - "1080:1080"  # если нужно достучаться с хоста

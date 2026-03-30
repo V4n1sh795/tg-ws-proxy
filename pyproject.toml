@@ -50,7 +50,7 @@ dependencies = [
     "rumps==0.4.0; platform_system == 'Darwin'",
     "Pillow==12.1.0; platform_system == 'Darwin'",
 ]
-
+ 
 [project.scripts]
 tg-ws-proxy = "proxy.tg_ws_proxy:main"
 tg-ws-proxy-tray-win = "windows:main"
