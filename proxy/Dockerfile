@@ -14,4 +14,4 @@ ENV PROXY_PORT=1080
 ENV PROXY_HOST=0.0.0.0
 
 # Запуск прокси
-CMD ["python", "proxy.py", "--host", "0.0.0.0", "--port", "1080"]
+CMD ["python", "proxy.py", "-v", "--host", "0.0.0.0", "--port", "1080"]
